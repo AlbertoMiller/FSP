@@ -8,7 +8,7 @@ BackLog
         
 UI /UX
         
-        ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜
         
 Front_End
         
