@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,OAAO,AAAC,CAAE,UAAU,CAAE,MAAM,CAAI",
+    "sources": [
+        "../../fsp-react/Sass/main.sass",
+        "../../fsp-react/Sass/_header.sass"
+    ],
+    "names": [],
+    "file": "main.css"
+}
