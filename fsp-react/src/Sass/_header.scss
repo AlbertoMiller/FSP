@@ -1,0 +1,47 @@
+@import "font";
+@import "sidebar";
+@import "colors";
+
+.center {
+  text-align: center;
+}
+header {
+  display: flex;
+  background-color: $dark;
+  color: aqua;
+  height: 4em;
+  flex-direction: row-reverse;
+  justify-content: right;
+  menu {
+    padding: 0;
+    margin: 0;
+    nav {
+      ul {
+        display: flex;
+        flex-direction: row-reverse;
+        li {
+          padding: 0em 3em;
+          font-size: larger;
+          font-family: $Arghavan-font;
+
+          a {
+            text-decoration: none;
+            color: $white;
+            &:hover {
+              color: $gold;
+            }
+          }
+          list-style: none;
+        }
+      }
+    }
+  }
+  div#login {
+    display: flex;
+    flex-direction: row;
+    // padding: 0.3em 0 ;
+    font-size: larger;
+    background-color: $golden-dark;
+    color: $white;
+  }
+}

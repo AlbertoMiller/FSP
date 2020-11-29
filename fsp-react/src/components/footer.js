@@ -1,9 +1,9 @@
 import React from 'react';
 function footer() {
     return(
-        <div>
-            <p>footer</p>
-        </div>
+        <footer>
+            <p className="center">footer</p>
+        </footer>
     )
 }
 

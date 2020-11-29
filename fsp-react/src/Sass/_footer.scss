@@ -1,0 +1,7 @@
+@import "colors";
+footer {
+  display: flex;
+  background-color: $dark;
+  height: 10em;
+  justify-content: center;
+}

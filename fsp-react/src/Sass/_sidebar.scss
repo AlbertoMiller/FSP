@@ -1,0 +1,13 @@
+@import "colors";
+.right {
+  text-align: right;
+}
+sidebar {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  background-color: $white;
+  width: 5em;
+  height: 15em;
+}
