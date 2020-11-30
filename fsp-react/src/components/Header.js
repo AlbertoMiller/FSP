@@ -1,32 +1,12 @@
 import React from "react";
+import Topheader from "./topheader";
+import Menu from "./menu";
 function Header() {
   return (
     <header>
-      <menu>
-        <nav>
-          <ul>
-            <li>
-              <a href="#"> محصولات </a>
-            </li>
-            <li>
-              <a href="#"> محصول سفارشی</a>
-            </li>
-            <li>
-              <a href="#">راهنما</a>
-            </li>
-          </ul>
-        </nav>
-      </menu>
-      <div id="login">
-        <p>
-          <a>ورود</a>
-        </p>
-        <p>
-          /
-        </p>
-        <p>
-          <a>عضویت</a>
-        </p>
+      <Topheader />
+      <div className="header">
+        <Menu />
       </div>
     </header>
   );

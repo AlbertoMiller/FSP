@@ -2,10 +2,14 @@
 @import "center";
 @import "footer";
 @import "colors";
+@import "searchBox";
 @import "font";
+@import "etc";
 
 // *{margin: 0;padding: 0;}
 #body {
   background-color: $white;
   display: flexbox;
+  margin: 0;
+  padding: 0;
 }

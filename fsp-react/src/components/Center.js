@@ -1,11 +1,11 @@
-import Sidebar from "./sidebar";
+// import Sidebar from "./sidebar";
 import React from "react";
 
 function center() {
   return (
     <center>
       <p className="center">center </p>
-      <Sidebar />
+      {/* <Sidebar /> */}
     </center>
   );
 }
