@@ -1,4 +1,6 @@
 import React from "react";
+import SearchBar from "./SearchBar";
+
 function menu() {
   return (
     <menu>
@@ -13,20 +15,17 @@ function menu() {
           <li>
             <a href="#">راهنما</a>
           </li>
+          <li className="plzbecenter">
+            <SearchBar />
+          </li>
+          <a href="#">
+            <div className="centerShopIcon">
+              <li className="ShopIcon ">
+                <div className="circle"></div>
+              </li>
+            </div>
+          </a>
         </ul>
-        <div id="searchbar">
-          <div class="searchBox">
-            <input
-              class="searchInput"
-              type="text"
-              name="SearchBar"
-              placeholder="بنویس تا بگردم..."
-            />
-            <button class="searchButton" href="#">
-              <i class="material-icons">search</i>
-            </button>
-          </div>
-        </div>
       </nav>
     </menu>
   );
